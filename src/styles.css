@@ -1,0 +1,76 @@
+
+.cls-view-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border: 2px solid red;
+  width: 1000px;
+  border-collapse: collapse;
+  margin: 30px;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+.cls-create-form {
+  position: fixed;
+  width: 400px;
+  z-index: 1000;
+  background-color: bisque;
+  margin: 10px;
+  top: 200px;
+  overflow: hidden;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto !important;
+}
+
+.cls-app-container.cls-table-disable {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.cls-modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cls-modal-title {
+  font-size: 1.5rem;
+}
+
+button {
+  border: 1px solid #ccc;
+}
+
+.cls-modal-fields label {
+  margin-right: 10px;
+  width: 30px;
+  margin-right: 10px;
+  text-align: left;
+}
+.cls-submit-button {
+  margin-right: 20px;
+}
+
+.cls-modal-fields .input-group {
+  align-items: center;
+}
+.cls-content-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cls-toast-container {
+  height: 40px;
+  color: blue;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.cls-create-btn {
+  margin: 20px;
+}
